@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/frontend-collective/react-dnd-scrollzone"
+    "url": "https://github.com/ZenHubHQ/react-dnd-scrollzone"
   },
   "bugs": {
-    "url": "http://github.com/frontend-collective/react-dnd-scrollzone/issues"
+    "url": "https://github.com/ZenHubHQ/react-dnd-scrollzone/issues"
   },
   "keywords": [
     "react",
