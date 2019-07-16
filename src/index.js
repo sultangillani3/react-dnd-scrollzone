@@ -259,12 +259,12 @@ export function createScrollingComponent(WrappedComponent) {
 export default function createScrollingComponentWithConsumer(WrappedComponent) {
   const ScrollingComponent = createScrollingComponent(WrappedComponent);
   return forwardRef((props, ref) => (
-    <DndContext>
+    <DndContext.Consumer>
       {({ dragDropManager }) => (
         dragDropManager === undefined
           ? null
           : <ScrollingComponent {...props} ref={ref} dragDropManager={dragDropManager} />
       )}
-    </DndContext>
+    </DndContext.Consumer>
   ));
 }
