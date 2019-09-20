@@ -1,6 +1,6 @@
 {
-  "name": "@zenhubhq/react-dnd-scrollzone",
-  "version": "5.0.1",
+  "name": "@sultangillani3/react-dnd-scrollzone",
+  "version": "5.0.2",
   "description": "A cross browser solution to scrolling during drag and drop.",
   "main": "lib/index.js",
   "scripts": {
@@ -32,9 +32,7 @@
     "auto"
   ],
   "author": {
-    "name": "Nicholas Clawson",
-    "email": "nickclaw@gmail.com",
-    "url": "nickclaw.com"
+    "name": "Sultan Gillani"
   },
   "license": "MIT",
   "dependencies": {
